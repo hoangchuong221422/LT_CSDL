@@ -1,0 +1,11 @@
+D:\Code\LT_CSDL_LamLai\CHUONG_01\BT01\bin\Debug\BT01.exe.config
+D:\Code\LT_CSDL_LamLai\CHUONG_01\BT01\bin\Debug\BT01.exe
+D:\Code\LT_CSDL_LamLai\CHUONG_01\BT01\bin\Debug\BT01.pdb
+D:\Code\LT_CSDL_LamLai\CHUONG_01\BT01\obj\Debug\BT01.csproj.AssemblyReference.cache
+D:\Code\LT_CSDL_LamLai\CHUONG_01\BT01\obj\Debug\BT01.csproj.SuggestedBindingRedirects.cache
+D:\Code\LT_CSDL_LamLai\CHUONG_01\BT01\obj\Debug\BT01.Form1.resources
+D:\Code\LT_CSDL_LamLai\CHUONG_01\BT01\obj\Debug\BT01.Properties.Resources.resources
+D:\Code\LT_CSDL_LamLai\CHUONG_01\BT01\obj\Debug\BT01.csproj.GenerateResource.cache
+D:\Code\LT_CSDL_LamLai\CHUONG_01\BT01\obj\Debug\BT01.csproj.CoreCompileInputs.cache
+D:\Code\LT_CSDL_LamLai\CHUONG_01\BT01\obj\Debug\BT01.exe
+D:\Code\LT_CSDL_LamLai\CHUONG_01\BT01\obj\Debug\BT01.pdb

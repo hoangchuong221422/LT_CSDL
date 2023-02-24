@@ -1,0 +1,13 @@
+D:\LT_CSDL_LamLai\CHUONG_03\BT02_Bingding_MonHoc\bin\Debug\BT02_Bingding_MonHoc.exe.config
+D:\LT_CSDL_LamLai\CHUONG_03\BT02_Bingding_MonHoc\bin\Debug\BT02_Bingding_MonHoc.exe
+D:\LT_CSDL_LamLai\CHUONG_03\BT02_Bingding_MonHoc\bin\Debug\BT02_Bingding_MonHoc.pdb
+D:\LT_CSDL_LamLai\CHUONG_03\BT02_Bingding_MonHoc\obj\Debug\BT02_Bingding_MonHoc.csproj.AssemblyReference.cache
+D:\LT_CSDL_LamLai\CHUONG_03\BT02_Bingding_MonHoc\obj\Debug\BT02_Bingding_MonHoc.csproj.SuggestedBindingRedirects.cache
+D:\LT_CSDL_LamLai\CHUONG_03\BT02_Bingding_MonHoc\obj\Debug\BT02_Bingding_MonHoc.Form1.resources
+D:\LT_CSDL_LamLai\CHUONG_03\BT02_Bingding_MonHoc\obj\Debug\BT02_Bingding_MonHoc.Properties.Resources.resources
+D:\LT_CSDL_LamLai\CHUONG_03\BT02_Bingding_MonHoc\obj\Debug\BT02_Bingding_MonHoc.csproj.GenerateResource.cache
+D:\LT_CSDL_LamLai\CHUONG_03\BT02_Bingding_MonHoc\obj\Debug\BT02_Bingding_MonHoc.csproj.CoreCompileInputs.cache
+D:\LT_CSDL_LamLai\CHUONG_03\BT02_Bingding_MonHoc\obj\Debug\BT02_Bingding_MonHoc.exe
+D:\LT_CSDL_LamLai\CHUONG_03\BT02_Bingding_MonHoc\obj\Debug\BT02_Bingding_MonHoc.pdb
+D:\LT_CSDL_LamLai\CHUONG_03\BT02_Bingding_MonHoc\obj\Debug\BT02_Bingding_MonHoc.Form2.resources
+D:\LT_CSDL_LamLai\CHUONG_03\BT02_Bingding_MonHoc\obj\Debug\BT02_Bingding_MonHoc.Form3.resources
