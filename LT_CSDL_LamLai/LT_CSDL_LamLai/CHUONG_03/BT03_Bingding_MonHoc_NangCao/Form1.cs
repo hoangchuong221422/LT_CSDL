@@ -153,6 +153,24 @@ namespace BT03_Bingding_MonHoc_NangCao
 
         private void btnghi_Click(object sender, EventArgs e)
         {
+            if (!txtmamh.ReadOnly)
+            {
+                DataRow[] Mang_dong = ds.Tables["MONHOC"].Select("MaMH = '" + txtmamh.Text + "'");
+                if (Mang_dong.Length > 0)
+                {
+                    MessageBox.Show("Không xóa được do tồn tại các dòng liên quan trong KETQUA");
+                    txtloaimh.Focus();
+                    return;
+                }
+            }
+            // Cập nhật lại việc thêm mới hay sửa trong DataTable
+            bs.EndEdit();
+            // Cập nhật lại trong CSDL
+            int n = adpMonHoc.Update(ds, "MONHOC");
+            if (n > 0)
+            {
+                MessageBox.Show("Cập nhật môn học thành công");
+            }
 
         }
 

@@ -13,7 +13,7 @@ namespace BT01_Mo_Hinh_Ngat_Ket_Noi_SinhVien
 {
     public partial class Form1 : Form
     {
-        int stt =  -1;
+        int stt = -1;
         // Khai báo các đối tượng cần sử dụng: 
         // 1.1 Chuỗi kết nối:
         string strcon = @"provider=microsoft.jet.oledb.4.0; data source=..\..\..\Data\QLSINHVIEN.mdb";
@@ -114,23 +114,23 @@ namespace BT01_Mo_Hinh_Ngat_Ket_Noi_SinhVien
             txthocbong.Text = rSinhVien["HocBong"].ToString();
 
             // Tính tổng điểm 
-            //txttongdiem.Text = TinhTongDiem(txtmasv.Text).ToString();
+            txttongdiem.Text = TinhTongDiem(txtmasv.Text).ToString();
 
             // Thể hiện số thứ tự mẫu tin hiện hành
             lblSTT.Text = (stt + 1) + " / " + ds.Tables["SINHVIEN"].Rows.Count;
         }
 
-        //private double TinhTongDiem(string masv)
-        //{
-        //    double kq = 0;
-        //    Object td = tblKetQua.Compute("sum(Diem)", "MaSV='" + masv + "'");
-        //    // Lưu ý: trường hợp sinh viên không có điểm thì phương thức Compuete trả về DBNull
-        //    if (td == DBNull.Value)
-        //        kq = 0;
-        //    else
-        //        kq = Convert.ToDouble(td);
-        //    return kq;
-        //}
+        private double TinhTongDiem(string masv)
+        {
+            double kq = 0;
+            Object td = ds.Tables["KETQUA"].Compute("sum(Diem)", "MaSV='" + masv + "'");
+            // Lưu ý: trường hợp sinh viên không có điểm thì phương thức Compuete trả về DBNull
+            if (td == DBNull.Value)
+                kq = 0;
+            else
+                kq = Convert.ToDouble(td);
+            return kq;
+        }
 
         private void btnthem_Click(object sender, EventArgs e)
         {
@@ -207,7 +207,7 @@ namespace BT01_Mo_Hinh_Ngat_Ket_Noi_SinhVien
             if (txtmasv.ReadOnly) // Ghi sửa
             {
                 // Xác định dòng cần sửa 
-           
+
                 DataRow rsv = tblSinhVien.Rows.Find(txtmasv.Text);
 
                 // Tiến hành sửa
@@ -220,7 +220,7 @@ namespace BT01_Mo_Hinh_Ngat_Ket_Noi_SinhVien
                 rsv["MaKH"] = cbokhoa.SelectedValue.ToString();
                 rsv["HocBong"] = txthocbong.Text;
 
-             
+
             }
             else // Ghi mới
             {
@@ -230,9 +230,9 @@ namespace BT01_Mo_Hinh_Ngat_Ket_Noi_SinhVien
                 {
                     MessageBox.Show("Trùng khóa chính. Nhập lại");
                     txtmasv.Focus();
-                   
+
                     return;
-                }              
+                }
             }
             int n = adpSinhVien.Update(ds, "SINHVIEN");
             if (n > 0)
