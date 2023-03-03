@@ -1,0 +1,10 @@
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BinDing_SinhVien_PHAI\bin\Debug\BinDing_SinhVien_PHAI.exe.config
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BinDing_SinhVien_PHAI\bin\Debug\BinDing_SinhVien_PHAI.exe
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BinDing_SinhVien_PHAI\bin\Debug\BinDing_SinhVien_PHAI.pdb
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BinDing_SinhVien_PHAI\obj\Debug\BinDing_SinhVien_PHAI.csproj.AssemblyReference.cache
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BinDing_SinhVien_PHAI\obj\Debug\BinDing_SinhVien_PHAI.Form1.resources
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BinDing_SinhVien_PHAI\obj\Debug\BinDing_SinhVien_PHAI.Properties.Resources.resources
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BinDing_SinhVien_PHAI\obj\Debug\BinDing_SinhVien_PHAI.csproj.GenerateResource.cache
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BinDing_SinhVien_PHAI\obj\Debug\BinDing_SinhVien_PHAI.csproj.CoreCompileInputs.cache
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BinDing_SinhVien_PHAI\obj\Debug\BinDing_SinhVien_PHAI.exe
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BinDing_SinhVien_PHAI\obj\Debug\BinDing_SinhVien_PHAI.pdb

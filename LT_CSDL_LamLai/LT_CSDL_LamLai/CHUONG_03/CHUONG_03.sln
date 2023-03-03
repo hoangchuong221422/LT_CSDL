@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BT03_Bingding_MonHoc_NangCa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BT04_Binding_SinhVien_Controls", "BT04_Binding_SinhVien_Controls\BT04_Binding_SinhVien_Controls.csproj", "{ACD05DB9-E0A8-497A-BAD8-07732A9CAFE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinDing_SinhVien_PHAI", "BinDing_SinhVien_PHAI\BinDing_SinhVien_PHAI.csproj", "{0F0241AB-D7F8-4F75-85F6-E33FFB88AE54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dataset_Co_Dinh_Kieu_MonHoc", "Dataset_Co_Dinh_Kieu_MonHoc\Dataset_Co_Dinh_Kieu_MonHoc.csproj", "{06146C24-3FDA-47B3-822E-2FA97958767A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{ACD05DB9-E0A8-497A-BAD8-07732A9CAFE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACD05DB9-E0A8-497A-BAD8-07732A9CAFE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACD05DB9-E0A8-497A-BAD8-07732A9CAFE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F0241AB-D7F8-4F75-85F6-E33FFB88AE54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F0241AB-D7F8-4F75-85F6-E33FFB88AE54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F0241AB-D7F8-4F75-85F6-E33FFB88AE54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F0241AB-D7F8-4F75-85F6-E33FFB88AE54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06146C24-3FDA-47B3-822E-2FA97958767A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06146C24-3FDA-47B3-822E-2FA97958767A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06146C24-3FDA-47B3-822E-2FA97958767A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06146C24-3FDA-47B3-822E-2FA97958767A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

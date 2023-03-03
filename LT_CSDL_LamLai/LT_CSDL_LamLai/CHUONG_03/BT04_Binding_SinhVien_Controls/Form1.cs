@@ -41,13 +41,25 @@ namespace BT04_Binding_SinhVien_Controls
             Khoi_Tao_BingdingSource();
             Khoi_Tao_Combo_Khoa();
             Lien_Ket_Dieu_Khien();
+            txttongdiem.Text = TinhTongDiem(txtmasv.Text).ToString();
+        }
+
+        private double TinhTongDiem(string masv)
+        {
+            double kq = 0;
+            Object td = ds.Tables["KETQUA"].Compute("sum(Diem)", "MaSV='" + masv + "'");
+            // Lưu ý: trường hợp sinh viên không có điểm thì phương thức Compuete trả về DBNull
+            if (td == DBNull.Value)
+                kq = 0;
+            else
+                kq = Convert.ToDouble(td);
+            return kq;
         }
 
         private void Khoi_Tao_Combo_Khoa()
         {
             cbomakh.DisplayMember = "TenKH";
             cbomakh.ValueMember = "MaKH";
-            cbomakh.SelectedValue = "OK";
             cbomakh.DataSource = ds.Tables["KHOA"];
         }
         private void Khoi_Tao_Doi_Tuong()
@@ -186,16 +198,5 @@ namespace BT04_Binding_SinhVien_Controls
             txtmasv.ReadOnly = true;
         }
 
-        private double TinhTongDiem(string masv)
-        {
-            double kq = 0;
-            Object td = ds.Tables["KETQUA"].Compute("sum(Diem)", "MaSV='" + masv + "'");
-            // Lưu ý: trường hợp sinh viên không có điểm thì phương thức Compuete trả về DBNull
-            if (td == DBNull.Value)
-                kq = 0;
-            else
-                kq = Convert.ToDouble(td);
-            return kq;
-        }
     }
 }
