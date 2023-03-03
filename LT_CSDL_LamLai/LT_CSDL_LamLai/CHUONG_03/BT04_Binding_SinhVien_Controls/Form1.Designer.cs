@@ -30,7 +30,7 @@ namespace BT04_Binding_SinhVien_Controls
         private void InitializeComponent()
         {
             this.dtpngaysinh = new System.Windows.Forms.DateTimePicker();
-            this.cbokhoa = new System.Windows.Forms.ComboBox();
+            this.cbomakh = new System.Windows.Forms.ComboBox();
             this.txthosv = new System.Windows.Forms.TextBox();
             this.txttongdiem = new System.Windows.Forms.TextBox();
             this.txthocbong = new System.Windows.Forms.TextBox();
@@ -61,50 +61,50 @@ namespace BT04_Binding_SinhVien_Controls
             this.dtpngaysinh.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpngaysinh.Location = new System.Drawing.Point(439, 129);
             this.dtpngaysinh.Name = "dtpngaysinh";
-            this.dtpngaysinh.Size = new System.Drawing.Size(183, 25);
+            this.dtpngaysinh.Size = new System.Drawing.Size(183, 29);
             this.dtpngaysinh.TabIndex = 82;
             // 
-            // cbokhoa
+            // cbomakh
             // 
-            this.cbokhoa.FormattingEnabled = true;
-            this.cbokhoa.Location = new System.Drawing.Point(439, 159);
-            this.cbokhoa.Name = "cbokhoa";
-            this.cbokhoa.Size = new System.Drawing.Size(183, 25);
-            this.cbokhoa.TabIndex = 85;
+            this.cbomakh.FormattingEnabled = true;
+            this.cbomakh.Location = new System.Drawing.Point(439, 159);
+            this.cbomakh.Name = "cbomakh";
+            this.cbomakh.Size = new System.Drawing.Size(183, 30);
+            this.cbomakh.TabIndex = 85;
             // 
             // txthosv
             // 
             this.txthosv.Location = new System.Drawing.Point(196, 99);
             this.txthosv.Name = "txthosv";
-            this.txthosv.Size = new System.Drawing.Size(321, 25);
+            this.txthosv.Size = new System.Drawing.Size(321, 29);
             this.txthosv.TabIndex = 78;
             // 
             // txttongdiem
             // 
             this.txttongdiem.Location = new System.Drawing.Point(439, 189);
             this.txttongdiem.Name = "txttongdiem";
-            this.txttongdiem.Size = new System.Drawing.Size(183, 25);
+            this.txttongdiem.Size = new System.Drawing.Size(183, 29);
             this.txttongdiem.TabIndex = 88;
             // 
             // txthocbong
             // 
             this.txthocbong.Location = new System.Drawing.Point(196, 189);
             this.txthocbong.Name = "txthocbong";
-            this.txthocbong.Size = new System.Drawing.Size(155, 25);
+            this.txthocbong.Size = new System.Drawing.Size(155, 29);
             this.txthocbong.TabIndex = 86;
             // 
             // txtnoisinh
             // 
             this.txtnoisinh.Location = new System.Drawing.Point(196, 159);
             this.txtnoisinh.Name = "txtnoisinh";
-            this.txtnoisinh.Size = new System.Drawing.Size(155, 25);
+            this.txtnoisinh.Size = new System.Drawing.Size(155, 29);
             this.txtnoisinh.TabIndex = 83;
             // 
             // txttensv
             // 
             this.txttensv.Location = new System.Drawing.Point(519, 99);
             this.txttensv.Name = "txttensv";
-            this.txttensv.Size = new System.Drawing.Size(103, 25);
+            this.txttensv.Size = new System.Drawing.Size(103, 29);
             this.txttensv.TabIndex = 79;
             // 
             // txtmasv
@@ -112,7 +112,7 @@ namespace BT04_Binding_SinhVien_Controls
             this.txtmasv.Location = new System.Drawing.Point(196, 69);
             this.txtmasv.Name = "txtmasv";
             this.txtmasv.ReadOnly = true;
-            this.txtmasv.Size = new System.Drawing.Size(426, 25);
+            this.txtmasv.Size = new System.Drawing.Size(426, 29);
             this.txtmasv.TabIndex = 77;
             // 
             // btnkhong
@@ -154,6 +154,7 @@ namespace BT04_Binding_SinhVien_Controls
             this.btnsau.TabIndex = 91;
             this.btnsau.Text = "Sau";
             this.btnsau.UseVisualStyleBackColor = false;
+            this.btnsau.Click += new System.EventHandler(this.btnsau_Click);
             // 
             // btnthem
             // 
@@ -180,7 +181,7 @@ namespace BT04_Binding_SinhVien_Controls
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(355, 193);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(77, 17);
+            this.label7.Size = new System.Drawing.Size(101, 22);
             this.label7.TabIndex = 87;
             this.label7.Text = "Tổng điểm";
             // 
@@ -199,7 +200,7 @@ namespace BT04_Binding_SinhVien_Controls
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(97, 196);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(70, 17);
+            this.label6.Size = new System.Drawing.Size(92, 22);
             this.label6.TabIndex = 76;
             this.label6.Text = "Học bỗng";
             // 
@@ -208,7 +209,7 @@ namespace BT04_Binding_SinhVien_Controls
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(390, 163);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(42, 17);
+            this.label5.Size = new System.Drawing.Size(54, 22);
             this.label5.TabIndex = 84;
             this.label5.Text = "Khoa";
             // 
@@ -217,7 +218,7 @@ namespace BT04_Binding_SinhVien_Controls
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(97, 166);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(62, 17);
+            this.label4.Size = new System.Drawing.Size(78, 22);
             this.label4.TabIndex = 75;
             this.label4.Text = "Nơi sinh";
             // 
@@ -226,7 +227,7 @@ namespace BT04_Binding_SinhVien_Controls
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(360, 133);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(72, 17);
+            this.label3.Size = new System.Drawing.Size(92, 22);
             this.label3.TabIndex = 81;
             this.label3.Text = "Ngày sinh";
             // 
@@ -235,7 +236,7 @@ namespace BT04_Binding_SinhVien_Controls
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(97, 106);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 17);
+            this.label2.Size = new System.Drawing.Size(96, 22);
             this.label2.TabIndex = 74;
             this.label2.Text = "Họ tên SV";
             // 
@@ -266,17 +267,17 @@ namespace BT04_Binding_SinhVien_Controls
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(97, 76);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 17);
+            this.label1.Size = new System.Drawing.Size(66, 22);
             this.label1.TabIndex = 73;
             this.label1.Text = "Mã SV";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(706, 281);
             this.Controls.Add(this.dtpngaysinh);
-            this.Controls.Add(this.cbokhoa);
+            this.Controls.Add(this.cbomakh);
             this.Controls.Add(this.txthosv);
             this.Controls.Add(this.txttongdiem);
             this.Controls.Add(this.txthocbong);
@@ -313,7 +314,7 @@ namespace BT04_Binding_SinhVien_Controls
         #endregion
 
         private System.Windows.Forms.DateTimePicker dtpngaysinh;
-        private System.Windows.Forms.ComboBox cbokhoa;
+        private System.Windows.Forms.ComboBox cbomakh;
         private System.Windows.Forms.TextBox txthosv;
         private System.Windows.Forms.TextBox txttongdiem;
         private System.Windows.Forms.TextBox txthocbong;
