@@ -1,0 +1,10 @@
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Dataset_Co_Dinh_Kieu_SinhVien\bin\Debug\Dataset_Co_Dinh_Kieu_SinhVien.exe.config
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Dataset_Co_Dinh_Kieu_SinhVien\bin\Debug\Dataset_Co_Dinh_Kieu_SinhVien.exe
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Dataset_Co_Dinh_Kieu_SinhVien\bin\Debug\Dataset_Co_Dinh_Kieu_SinhVien.pdb
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Dataset_Co_Dinh_Kieu_SinhVien\obj\Debug\Dataset_Co_Dinh_Kieu_SinhVien.csproj.AssemblyReference.cache
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Dataset_Co_Dinh_Kieu_SinhVien\obj\Debug\Dataset_Co_Dinh_Kieu_SinhVien.Form1.resources
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Dataset_Co_Dinh_Kieu_SinhVien\obj\Debug\Dataset_Co_Dinh_Kieu_SinhVien.Properties.Resources.resources
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Dataset_Co_Dinh_Kieu_SinhVien\obj\Debug\Dataset_Co_Dinh_Kieu_SinhVien.csproj.GenerateResource.cache
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Dataset_Co_Dinh_Kieu_SinhVien\obj\Debug\Dataset_Co_Dinh_Kieu_SinhVien.csproj.CoreCompileInputs.cache
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Dataset_Co_Dinh_Kieu_SinhVien\obj\Debug\Dataset_Co_Dinh_Kieu_SinhVien.exe
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Dataset_Co_Dinh_Kieu_SinhVien\obj\Debug\Dataset_Co_Dinh_Kieu_SinhVien.pdb

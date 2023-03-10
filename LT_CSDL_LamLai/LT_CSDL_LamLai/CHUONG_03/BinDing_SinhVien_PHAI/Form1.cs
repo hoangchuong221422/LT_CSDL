@@ -145,6 +145,7 @@ namespace BinDing_SinhVien_PHAI
 
         private void btnsau_Click(object sender, EventArgs e)
         {
+
             bs.MoveNext();
         }
 
@@ -196,7 +197,7 @@ namespace BinDing_SinhVien_PHAI
             txtmasv.ReadOnly = true;
             bs.EndEdit();
             // Cập nhật lại trong CSDL
-            int n = adpSinhVien.Update(ds, "MONHOC");
+            int n = adpSinhVien.Update(ds, "SINHVIEN");
             if (n > 0)
             {
                 MessageBox.Show("Cập nhật môn học thành công");
