@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dataset_Co_Dinh_Kieu_MonHoc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dataset_Co_Dinh_Kieu_SinhVien", "Dataset_Co_Dinh_Kieu_SinhVien\Dataset_Co_Dinh_Kieu_SinhVien.csproj", "{FBFEA6FD-8E61-4CC5-A22A-AF6E162445CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luoi_DataGridview_02", "Luoi_DataGridview_02\Luoi_DataGridview_02.csproj", "{87883043-A08A-499C-A54C-EE007F949B7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{FBFEA6FD-8E61-4CC5-A22A-AF6E162445CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBFEA6FD-8E61-4CC5-A22A-AF6E162445CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBFEA6FD-8E61-4CC5-A22A-AF6E162445CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87883043-A08A-499C-A54C-EE007F949B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87883043-A08A-499C-A54C-EE007F949B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87883043-A08A-499C-A54C-EE007F949B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87883043-A08A-499C-A54C-EE007F949B7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
