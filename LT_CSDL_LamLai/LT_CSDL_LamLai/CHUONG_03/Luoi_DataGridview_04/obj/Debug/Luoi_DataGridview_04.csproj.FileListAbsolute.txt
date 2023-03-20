@@ -1,0 +1,10 @@
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Luoi_DataGridview_04\bin\Debug\Luoi_DataGridview_04.exe.config
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Luoi_DataGridview_04\bin\Debug\Luoi_DataGridview_04.exe
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Luoi_DataGridview_04\bin\Debug\Luoi_DataGridview_04.pdb
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Luoi_DataGridview_04\obj\Debug\Luoi_DataGridview_04.csproj.AssemblyReference.cache
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Luoi_DataGridview_04\obj\Debug\Luoi_DataGridview_04.Form1.resources
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Luoi_DataGridview_04\obj\Debug\Luoi_DataGridview_04.Properties.Resources.resources
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Luoi_DataGridview_04\obj\Debug\Luoi_DataGridview_04.csproj.GenerateResource.cache
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Luoi_DataGridview_04\obj\Debug\Luoi_DataGridview_04.csproj.CoreCompileInputs.cache
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Luoi_DataGridview_04\obj\Debug\Luoi_DataGridview_04.exe
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Luoi_DataGridview_04\obj\Debug\Luoi_DataGridview_04.pdb

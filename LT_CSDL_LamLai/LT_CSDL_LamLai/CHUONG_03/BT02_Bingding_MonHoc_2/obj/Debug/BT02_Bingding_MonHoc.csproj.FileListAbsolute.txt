@@ -8,3 +8,13 @@ C:\Users\KHOACNTT\Downloads\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BT02_Bingdin
 C:\Users\KHOACNTT\Downloads\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BT02_Bingding_MonHoc_2\obj\Debug\BT02_Bingding_MonHoc.csproj.CoreCompileInputs.cache
 C:\Users\KHOACNTT\Downloads\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BT02_Bingding_MonHoc_2\obj\Debug\BT02_Bingding_MonHoc_2.exe
 C:\Users\KHOACNTT\Downloads\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BT02_Bingding_MonHoc_2\obj\Debug\BT02_Bingding_MonHoc_2.pdb
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BT02_Bingding_MonHoc_2\bin\Debug\BT02_Bingding_MonHoc_2.exe.config
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BT02_Bingding_MonHoc_2\bin\Debug\BT02_Bingding_MonHoc_2.exe
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BT02_Bingding_MonHoc_2\bin\Debug\BT02_Bingding_MonHoc_2.pdb
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BT02_Bingding_MonHoc_2\obj\Debug\BT02_Bingding_MonHoc.csproj.AssemblyReference.cache
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BT02_Bingding_MonHoc_2\obj\Debug\BT02_Bingding_MonHoc_2.Form1.resources
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BT02_Bingding_MonHoc_2\obj\Debug\BT02_Bingding_MonHoc_2.Properties.Resources.resources
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BT02_Bingding_MonHoc_2\obj\Debug\BT02_Bingding_MonHoc.csproj.GenerateResource.cache
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BT02_Bingding_MonHoc_2\obj\Debug\BT02_Bingding_MonHoc.csproj.CoreCompileInputs.cache
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BT02_Bingding_MonHoc_2\obj\Debug\BT02_Bingding_MonHoc_2.exe
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BT02_Bingding_MonHoc_2\obj\Debug\BT02_Bingding_MonHoc_2.pdb

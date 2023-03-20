@@ -19,3 +19,13 @@ C:\Users\ChuongHuynh\Downloads\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\B
 C:\Users\ChuongHuynh\Downloads\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BT04_Binding_SinhVien_Controls\obj\Debug\BT04_Binding_SinhVien_Controls.csproj.CoreCompileInputs.cache
 C:\Users\ChuongHuynh\Downloads\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BT04_Binding_SinhVien_Controls\obj\Debug\BT04_Binding_SinhVien_Controls.exe
 C:\Users\ChuongHuynh\Downloads\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BT04_Binding_SinhVien_Controls\obj\Debug\BT04_Binding_SinhVien_Controls.pdb
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BT04_Binding_SinhVien_Controls\bin\Debug\BT04_Binding_SinhVien_Controls.exe.config
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BT04_Binding_SinhVien_Controls\bin\Debug\BT04_Binding_SinhVien_Controls.exe
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BT04_Binding_SinhVien_Controls\bin\Debug\BT04_Binding_SinhVien_Controls.pdb
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BT04_Binding_SinhVien_Controls\obj\Debug\BT04_Binding_SinhVien_Controls.csproj.AssemblyReference.cache
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BT04_Binding_SinhVien_Controls\obj\Debug\BT04_Binding_SinhVien_Controls.Form1.resources
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BT04_Binding_SinhVien_Controls\obj\Debug\BT04_Binding_SinhVien_Controls.Properties.Resources.resources
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BT04_Binding_SinhVien_Controls\obj\Debug\BT04_Binding_SinhVien_Controls.csproj.GenerateResource.cache
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BT04_Binding_SinhVien_Controls\obj\Debug\BT04_Binding_SinhVien_Controls.csproj.CoreCompileInputs.cache
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BT04_Binding_SinhVien_Controls\obj\Debug\BT04_Binding_SinhVien_Controls.exe
+D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\BT04_Binding_SinhVien_Controls\obj\Debug\BT04_Binding_SinhVien_Controls.pdb

@@ -25,6 +25,7 @@ namespace Luoi_DataGridview_03
         // 1.4 Khai báo đối tượng CommanBuilder tương ứng để cập nhật dữ liệu cho bảng SINHVIEN
         SqlCommandBuilder cmbMonHoc;
 
+        // Bài này không có đối tượng bs để liên kết dữ liệu
         public Form1()
         {
             InitializeComponent();
@@ -70,10 +71,92 @@ namespace Luoi_DataGridview_03
             cmbMonHoc = new SqlCommandBuilder(adpMonHoc);
         }
 
+        private void btnthem_Click(object sender, EventArgs e)
+        {
+            txtmamh.ReadOnly = false;
+            foreach (Control ctl in this.Controls)
+            {
+                if (ctl is TextBox)
+                {
+                    (ctl as TextBox).Clear();
+                }
+            }
+            txtmamh.Focus();
+        }
+
+        private void btnhuy_Click(object sender, EventArgs e)
+        {
+            // xac dinh dong can huy 
+            DataGridViewRow rhuy = dgvMH.SelectedRows[0];
+            //chuyen doi dong rhuy sang datarow 
+            DataRow r = (rhuy.DataBoundItem as DataRowView).Row;
+            //++kiem tra xem co ton tai nhung dong co lien quan den dong r trong ketqua 
+            if (r.GetChildRows("FK_MH_KQ").Length > 0)
+            {
+                MessageBox.Show("Khong xoa duoc ! Dong nay co lien quan den bang KETQUA");
+                return;
+            }
+            //xoa dong r dataTables
+            r.Delete();
+            //xoa trong CSDL 
+            int n = adpMonHoc.Update(ds, "MONHOC");
+            if (n > 0)
+            {
+                MessageBox.Show("Huy mau tin thanh cong");
+            }
+            Gan_du_lieu(dgvMH.Rows[0]);
+        }
+
+        private void btnghi_Click(object sender, EventArgs e)
+        {
+            if (txtmamh.ReadOnly) //sua
+            {
+                // xac dinh dong can sua 
+                DataGridViewRow rsua = dgvMH.SelectedRows[0];
+                //chuyen doi dong rhuy sang datarow 
+                DataRow r = (rsua.DataBoundItem as DataRowView).Row;
+                //sua trong dataTable
+                // r[0] = txtmamh.Text; k có sửa
+                r[1] = txttenmh.Text;
+                r[2] = txtsotiet.Text;
+                //cap nhat ve CSDL
+
+                int n = adpMonHoc.Update(ds, "MONHOC");
+                if (n > 0)
+                {
+                    MessageBox.Show("Cap nhat mau tin thanh cong");
+                }
+            }
+            else  // ghi moi
+            {
+                DataRow rmoi = ds.Tables["MONHOC"].NewRow();
+                rmoi[0] = txtmamh.Text;
+                rmoi[1] = txttenmh.Text;
+                rmoi[2] = txtsotiet.Text;
+               
+                ds.Tables["MONHOC"].Rows.Add(rmoi);
+                int n = adpMonHoc.Update(ds, "MONHOC");
+                if (n > 0)
+                {
+                    MessageBox.Show("Ghi moi mau tin thanh cong");
+                }
+                txtmamh.ReadOnly = true;
+                dgvMH.Rows[ds.Tables["MONHOC"].Rows.Count - 1].Selected = true;
+            }
+        }
+
+        private void btnkhong_Click(object sender, EventArgs e)
+        {
+            Gan_du_lieu(dgvMH.SelectedRows[0]);
+            txtmamh.ReadOnly = true;
+        }
+
         private void dgvMH_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             DataGridViewRow r = dgvMH.Rows[e.RowIndex];
             Gan_du_lieu(r);
         }
+
+
     }
 }

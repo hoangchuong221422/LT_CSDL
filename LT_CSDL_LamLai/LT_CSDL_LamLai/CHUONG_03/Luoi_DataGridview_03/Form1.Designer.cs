@@ -30,6 +30,9 @@ namespace Luoi_DataGridview_03
         private void InitializeComponent()
         {
             this.dgvMH = new System.Windows.Forms.DataGridView();
+            this.colMaMH = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colTenMH = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colSoTiet = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnkhong = new System.Windows.Forms.Button();
             this.btnghi = new System.Windows.Forms.Button();
             this.btnhuy = new System.Windows.Forms.Button();
@@ -40,9 +43,6 @@ namespace Luoi_DataGridview_03
             this.txtsotiet = new System.Windows.Forms.TextBox();
             this.txttenmh = new System.Windows.Forms.TextBox();
             this.txtmamh = new System.Windows.Forms.TextBox();
-            this.colMaMH = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colTenMH = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colSoTiet = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMH)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,99 +57,17 @@ namespace Luoi_DataGridview_03
             this.dgvMH.Location = new System.Drawing.Point(12, 12);
             this.dgvMH.MultiSelect = false;
             this.dgvMH.Name = "dgvMH";
+            this.dgvMH.RowHeadersWidth = 51;
             this.dgvMH.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvMH.Size = new System.Drawing.Size(418, 189);
             this.dgvMH.TabIndex = 4;
             this.dgvMH.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMH_CellClick);
             // 
-            // btnkhong
-            // 
-            this.btnkhong.Location = new System.Drawing.Point(313, 322);
-            this.btnkhong.Name = "btnkhong";
-            this.btnkhong.Size = new System.Drawing.Size(60, 31);
-            this.btnkhong.TabIndex = 11;
-            this.btnkhong.Text = "Không";
-            this.btnkhong.UseVisualStyleBackColor = true;
-            // 
-            // btnghi
-            // 
-            this.btnghi.Location = new System.Drawing.Point(222, 322);
-            this.btnghi.Name = "btnghi";
-            this.btnghi.Size = new System.Drawing.Size(60, 31);
-            this.btnghi.TabIndex = 12;
-            this.btnghi.Text = "Ghi";
-            this.btnghi.UseVisualStyleBackColor = true;
-            // 
-            // btnhuy
-            // 
-            this.btnhuy.Location = new System.Drawing.Point(131, 322);
-            this.btnhuy.Name = "btnhuy";
-            this.btnhuy.Size = new System.Drawing.Size(60, 31);
-            this.btnhuy.TabIndex = 13;
-            this.btnhuy.Text = "Hủy";
-            this.btnhuy.UseVisualStyleBackColor = true;
-            // 
-            // btnthem
-            // 
-            this.btnthem.Location = new System.Drawing.Point(38, 322);
-            this.btnthem.Name = "btnthem";
-            this.btnthem.Size = new System.Drawing.Size(60, 31);
-            this.btnthem.TabIndex = 14;
-            this.btnthem.Text = "Thêm";
-            this.btnthem.UseVisualStyleBackColor = true;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(23, 277);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(49, 17);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Số tiết";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(23, 243);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 17);
-            this.label2.TabIndex = 9;
-            this.label2.Text = "Tên môn";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(23, 212);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 17);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "Mã môn";
-            // 
-            // txtsotiet
-            // 
-            this.txtsotiet.Location = new System.Drawing.Point(95, 274);
-            this.txtsotiet.Name = "txtsotiet";
-            this.txtsotiet.Size = new System.Drawing.Size(313, 25);
-            this.txtsotiet.TabIndex = 5;
-            // 
-            // txttenmh
-            // 
-            this.txttenmh.Location = new System.Drawing.Point(95, 243);
-            this.txttenmh.Name = "txttenmh";
-            this.txttenmh.Size = new System.Drawing.Size(313, 25);
-            this.txttenmh.TabIndex = 6;
-            // 
-            // txtmamh
-            // 
-            this.txtmamh.Location = new System.Drawing.Point(95, 212);
-            this.txtmamh.Name = "txtmamh";
-            this.txtmamh.Size = new System.Drawing.Size(313, 25);
-            this.txtmamh.TabIndex = 7;
-            // 
             // colMaMH
             // 
             this.colMaMH.DataPropertyName = "MaMH";
             this.colMaMH.HeaderText = "Mã môn học";
+            this.colMaMH.MinimumWidth = 6;
             this.colMaMH.Name = "colMaMH";
             this.colMaMH.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.colMaMH.Width = 125;
@@ -158,6 +76,7 @@ namespace Luoi_DataGridview_03
             // 
             this.colTenMH.DataPropertyName = "TenMH";
             this.colTenMH.HeaderText = "Tên môn học";
+            this.colTenMH.MinimumWidth = 6;
             this.colTenMH.Name = "colTenMH";
             this.colTenMH.Width = 125;
             // 
@@ -165,14 +84,104 @@ namespace Luoi_DataGridview_03
             // 
             this.colSoTiet.DataPropertyName = "SoTiet";
             this.colSoTiet.HeaderText = "Số tiết";
+            this.colSoTiet.MinimumWidth = 6;
             this.colSoTiet.Name = "colSoTiet";
             this.colSoTiet.Width = 125;
             // 
+            // btnkhong
+            // 
+            this.btnkhong.Location = new System.Drawing.Point(329, 328);
+            this.btnkhong.Name = "btnkhong";
+            this.btnkhong.Size = new System.Drawing.Size(77, 36);
+            this.btnkhong.TabIndex = 11;
+            this.btnkhong.Text = "Không";
+            this.btnkhong.UseVisualStyleBackColor = true;
+            this.btnkhong.Click += new System.EventHandler(this.btnkhong_Click);
+            // 
+            // btnghi
+            // 
+            this.btnghi.Location = new System.Drawing.Point(238, 328);
+            this.btnghi.Name = "btnghi";
+            this.btnghi.Size = new System.Drawing.Size(77, 36);
+            this.btnghi.TabIndex = 12;
+            this.btnghi.Text = "Ghi";
+            this.btnghi.UseVisualStyleBackColor = true;
+            this.btnghi.Click += new System.EventHandler(this.btnghi_Click);
+            // 
+            // btnhuy
+            // 
+            this.btnhuy.Location = new System.Drawing.Point(147, 328);
+            this.btnhuy.Name = "btnhuy";
+            this.btnhuy.Size = new System.Drawing.Size(77, 36);
+            this.btnhuy.TabIndex = 13;
+            this.btnhuy.Text = "Hủy";
+            this.btnhuy.UseVisualStyleBackColor = true;
+            this.btnhuy.Click += new System.EventHandler(this.btnhuy_Click);
+            // 
+            // btnthem
+            // 
+            this.btnthem.Location = new System.Drawing.Point(54, 328);
+            this.btnthem.Name = "btnthem";
+            this.btnthem.Size = new System.Drawing.Size(77, 36);
+            this.btnthem.TabIndex = 14;
+            this.btnthem.Text = "Thêm";
+            this.btnthem.UseVisualStyleBackColor = true;
+            this.btnthem.Click += new System.EventHandler(this.btnthem_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(7, 281);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(64, 22);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "Số tiết";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(7, 247);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(85, 22);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "Tên môn";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(7, 216);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(77, 22);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "Mã môn";
+            // 
+            // txtsotiet
+            // 
+            this.txtsotiet.Location = new System.Drawing.Point(95, 274);
+            this.txtsotiet.Name = "txtsotiet";
+            this.txtsotiet.Size = new System.Drawing.Size(313, 29);
+            this.txtsotiet.TabIndex = 5;
+            // 
+            // txttenmh
+            // 
+            this.txttenmh.Location = new System.Drawing.Point(95, 243);
+            this.txttenmh.Name = "txttenmh";
+            this.txttenmh.Size = new System.Drawing.Size(313, 29);
+            this.txttenmh.TabIndex = 6;
+            // 
+            // txtmamh
+            // 
+            this.txtmamh.Location = new System.Drawing.Point(95, 212);
+            this.txtmamh.Name = "txtmamh";
+            this.txtmamh.ReadOnly = true;
+            this.txtmamh.Size = new System.Drawing.Size(313, 29);
+            this.txtmamh.TabIndex = 7;
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(507, 379);
+            this.ClientSize = new System.Drawing.Size(526, 425);
             this.Controls.Add(this.dgvMH);
             this.Controls.Add(this.btnkhong);
             this.Controls.Add(this.btnghi);
@@ -185,7 +194,7 @@ namespace Luoi_DataGridview_03
             this.Controls.Add(this.txttenmh);
             this.Controls.Add(this.txtmamh);
             this.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
