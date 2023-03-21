@@ -2527,7 +2527,7 @@ SELECT MaSV, MaMH, Diem FROM KETQUA WHERE (MaMH = @MaMH) AND (MaSV = @MaSV)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Man_hinh_main_sub.Properties.Settings.Default.C21TH2_LTCSDLConnectionString;
+            this._connection.ConnectionString = global::Man_hinh_main_sub.Properties.Settings.Default.C21TH2_LTCSDLConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2942,7 +2942,7 @@ SELECT MaSV, HoSV, TenSV, Phai, NgaySinh, NoiSinh, Quan, MaKH, HocBong FROM SINH
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Man_hinh_main_sub.Properties.Settings.Default.C21TH2_LTCSDLConnectionString;
+            this._connection.ConnectionString = global::Man_hinh_main_sub.Properties.Settings.Default.C21TH2_LTCSDLConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3496,7 +3496,7 @@ SELECT MaSV, HoSV, TenSV, Phai, NgaySinh, NoiSinh, Quan, MaKH, HocBong FROM SINH
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Man_hinh_main_sub.Properties.Settings.Default.C21TH2_LTCSDLConnectionString;
+            this._connection.ConnectionString = global::Man_hinh_main_sub.Properties.Settings.Default.C21TH2_LTCSDLConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3849,7 +3849,7 @@ SELECT MaMH, TenMH, SoTiet FROM MONHOC WHERE (MaMH = @MaMH)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Man_hinh_main_sub.Properties.Settings.Default.C21TH2_LTCSDLConnectionString;
+            this._connection.ConnectionString = global::Man_hinh_main_sub.Properties.Settings.Default.C21TH2_LTCSDLConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

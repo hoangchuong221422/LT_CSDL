@@ -32,5 +32,16 @@ namespace Man_hinh_main_sub.Properties {
                 return ((string)(this["C21TH2_LTCSDLConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-P3705HF\\SQLEXPRESS;Initial Catalog=C21TH2_LTCSDL;Integrated S" +
+            "ecurity=True")]
+        public string C21TH2_LTCSDLConnectionString1 {
+            get {
+                return ((string)(this["C21TH2_LTCSDLConnectionString1"]));
+            }
+        }
     }
 }
