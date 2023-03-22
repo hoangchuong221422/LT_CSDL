@@ -54,7 +54,15 @@ namespace Man_hinh_main_sub
             this.lblSTT = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dgvKQ = new System.Windows.Forms.DataGridView();
+            this.MaMH = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TenMH = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Diem = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgv = new System.Windows.Forms.DataGridView();
+            this.colMaMH = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SoTiet = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colTenMH = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvKQ)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.SuspendLayout();
             // 
             // dtpngaysinh
@@ -126,6 +134,7 @@ namespace Man_hinh_main_sub
             this.btnkhong.TabIndex = 143;
             this.btnkhong.Text = "Không";
             this.btnkhong.UseVisualStyleBackColor = false;
+            this.btnkhong.Click += new System.EventHandler(this.btnkhong_Click);
             // 
             // btnghi
             // 
@@ -136,6 +145,7 @@ namespace Man_hinh_main_sub
             this.btnghi.TabIndex = 142;
             this.btnghi.Text = "Ghi";
             this.btnghi.UseVisualStyleBackColor = false;
+            this.btnghi.Click += new System.EventHandler(this.btnghi_Click);
             // 
             // btnhuy
             // 
@@ -146,6 +156,7 @@ namespace Man_hinh_main_sub
             this.btnhuy.TabIndex = 141;
             this.btnhuy.Text = "Huỷ";
             this.btnhuy.UseVisualStyleBackColor = false;
+            this.btnhuy.Click += new System.EventHandler(this.btnhuy_Click);
             // 
             // btnsau
             // 
@@ -156,6 +167,7 @@ namespace Man_hinh_main_sub
             this.btnsau.TabIndex = 139;
             this.btnsau.Text = "Sau";
             this.btnsau.UseVisualStyleBackColor = false;
+            this.btnsau.Click += new System.EventHandler(this.btnsau_Click);
             // 
             // btnthem
             // 
@@ -166,6 +178,7 @@ namespace Man_hinh_main_sub
             this.btnthem.TabIndex = 140;
             this.btnthem.Text = "Thêm";
             this.btnthem.UseVisualStyleBackColor = false;
+            this.btnthem.Click += new System.EventHandler(this.btnthem_Click);
             // 
             // btntruoc
             // 
@@ -176,6 +189,7 @@ namespace Man_hinh_main_sub
             this.btntruoc.TabIndex = 137;
             this.btntruoc.Text = "Trước";
             this.btntruoc.UseVisualStyleBackColor = false;
+            this.btntruoc.Click += new System.EventHandler(this.btntruoc_Click);
             // 
             // label7
             // 
@@ -247,7 +261,7 @@ namespace Man_hinh_main_sub
             this.label8.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(0, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(724, 49);
+            this.label8.Size = new System.Drawing.Size(622, 49);
             this.label8.TabIndex = 120;
             this.label8.Text = "DANH SÁCH SINH VIÊN";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -276,6 +290,10 @@ namespace Man_hinh_main_sub
             // 
             this.dgvKQ.AllowUserToAddRows = false;
             this.dgvKQ.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvKQ.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.MaMH,
+            this.TenMH,
+            this.Diem});
             this.dgvKQ.Location = new System.Drawing.Point(71, 274);
             this.dgvKQ.MultiSelect = false;
             this.dgvKQ.Name = "dgvKQ";
@@ -284,11 +302,75 @@ namespace Man_hinh_main_sub
             this.dgvKQ.Size = new System.Drawing.Size(510, 189);
             this.dgvKQ.TabIndex = 144;
             // 
+            // MaMH
+            // 
+            this.MaMH.DataPropertyName = "MaMH";
+            this.MaMH.HeaderText = "Mã môn học";
+            this.MaMH.MinimumWidth = 6;
+            this.MaMH.Name = "MaMH";
+            this.MaMH.Width = 125;
+            // 
+            // TenMH
+            // 
+            this.TenMH.DataPropertyName = "TenMH";
+            this.TenMH.HeaderText = "Tên môn học";
+            this.TenMH.MinimumWidth = 6;
+            this.TenMH.Name = "TenMH";
+            this.TenMH.Width = 125;
+            // 
+            // Diem
+            // 
+            this.Diem.DataPropertyName = "Diem";
+            this.Diem.HeaderText = "Điểm";
+            this.Diem.MinimumWidth = 6;
+            this.Diem.Name = "Diem";
+            this.Diem.Width = 125;
+            // 
+            // dgv
+            // 
+            this.dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.colMaMH,
+            this.SoTiet,
+            this.colTenMH});
+            this.dgv.Location = new System.Drawing.Point(70, 485);
+            this.dgv.Name = "dgv";
+            this.dgv.RowHeadersWidth = 51;
+            this.dgv.RowTemplate.Height = 24;
+            this.dgv.Size = new System.Drawing.Size(511, 150);
+            this.dgv.TabIndex = 145;
+            this.dgv.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            // 
+            // colMaMH
+            // 
+            this.colMaMH.DataPropertyName = "MaMH";
+            this.colMaMH.HeaderText = "Mã Môn Học";
+            this.colMaMH.MinimumWidth = 6;
+            this.colMaMH.Name = "colMaMH";
+            this.colMaMH.Width = 125;
+            // 
+            // SoTiet
+            // 
+            this.SoTiet.DataPropertyName = "SoTiet";
+            this.SoTiet.HeaderText = "Số tiết";
+            this.SoTiet.MinimumWidth = 6;
+            this.SoTiet.Name = "SoTiet";
+            this.SoTiet.Width = 125;
+            // 
+            // colTenMH
+            // 
+            this.colTenMH.DataPropertyName = "TenMH";
+            this.colTenMH.HeaderText = "Tên MH";
+            this.colTenMH.MinimumWidth = 6;
+            this.colTenMH.Name = "colTenMH";
+            this.colTenMH.Width = 125;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(724, 488);
+            this.ClientSize = new System.Drawing.Size(622, 647);
+            this.Controls.Add(this.dgv);
             this.Controls.Add(this.dgvKQ);
             this.Controls.Add(this.dtpngaysinh);
             this.Controls.Add(this.cbomakh);
@@ -321,6 +403,7 @@ namespace Man_hinh_main_sub
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvKQ)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -353,6 +436,13 @@ namespace Man_hinh_main_sub
         private System.Windows.Forms.Label lblSTT;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dgvKQ;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MaMH;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TenMH;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Diem;
+        private System.Windows.Forms.DataGridView dgv;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colMaMH;
+        private System.Windows.Forms.DataGridViewTextBoxColumn SoTiet;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colTenMH;
     }
 }
 
