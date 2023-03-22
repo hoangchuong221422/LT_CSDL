@@ -8,3 +8,13 @@ D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Man_hinh_main_sub\obj\De
 D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Man_hinh_main_sub\obj\Debug\Man_hinh_main_sub.exe
 D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Man_hinh_main_sub\obj\Debug\Man_hinh_main_sub.pdb
 D:\Code\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Man_hinh_main_sub\obj\Debug\Man_hinh_main_sub.csproj.AssemblyReference.cache
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Man_hinh_main_sub\bin\Debug\Man_hinh_main_sub.exe.config
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Man_hinh_main_sub\bin\Debug\Man_hinh_main_sub.exe
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Man_hinh_main_sub\bin\Debug\Man_hinh_main_sub.pdb
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Man_hinh_main_sub\obj\Debug\Man_hinh_main_sub.csproj.AssemblyReference.cache
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Man_hinh_main_sub\obj\Debug\Man_hinh_main_sub.Form1.resources
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Man_hinh_main_sub\obj\Debug\Man_hinh_main_sub.Properties.Resources.resources
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Man_hinh_main_sub\obj\Debug\Man_hinh_main_sub.csproj.GenerateResource.cache
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Man_hinh_main_sub\obj\Debug\Man_hinh_main_sub.csproj.CoreCompileInputs.cache
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Man_hinh_main_sub\obj\Debug\Man_hinh_main_sub.exe
+D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Man_hinh_main_sub\obj\Debug\Man_hinh_main_sub.pdb

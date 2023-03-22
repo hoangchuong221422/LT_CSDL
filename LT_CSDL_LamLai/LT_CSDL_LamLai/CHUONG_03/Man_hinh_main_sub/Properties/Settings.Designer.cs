@@ -43,5 +43,26 @@ namespace Man_hinh_main_sub.Properties {
                 return ((string)(this["C21TH2_LTCSDLConnectionString1"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.;Initial Catalog=LE_TRAN_TAN_TAI_QLSV;Integrated Security=True")]
+        public string LE_TRAN_TAN_TAI_QLSVConnectionString {
+            get {
+                return ((string)(this["LE_TRAN_TAN_TAI_QLSVConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\\LT_CSDL\\LT_CSDL_LamLai\\LT_CSDL_La" +
+            "mLai\\CHUONG_03\\Data\\QLSINHVIEN.mdb")]
+        public string QLSINHVIENConnectionString {
+            get {
+                return ((string)(this["QLSINHVIENConnectionString"]));
+            }
+        }
     }
 }

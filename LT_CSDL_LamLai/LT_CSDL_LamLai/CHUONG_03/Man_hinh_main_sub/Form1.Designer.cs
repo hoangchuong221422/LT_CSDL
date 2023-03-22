@@ -45,7 +45,7 @@ namespace Man_hinh_main_sub
             this.btntruoc = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.chkphai = new System.Windows.Forms.CheckBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.KBK = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -71,7 +71,7 @@ namespace Man_hinh_main_sub
             this.dtpngaysinh.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpngaysinh.Location = new System.Drawing.Point(398, 121);
             this.dtpngaysinh.Name = "dtpngaysinh";
-            this.dtpngaysinh.Size = new System.Drawing.Size(183, 28);
+            this.dtpngaysinh.Size = new System.Drawing.Size(183, 24);
             this.dtpngaysinh.TabIndex = 130;
             // 
             // cbomakh
@@ -79,42 +79,42 @@ namespace Man_hinh_main_sub
             this.cbomakh.FormattingEnabled = true;
             this.cbomakh.Location = new System.Drawing.Point(398, 151);
             this.cbomakh.Name = "cbomakh";
-            this.cbomakh.Size = new System.Drawing.Size(183, 29);
+            this.cbomakh.Size = new System.Drawing.Size(183, 24);
             this.cbomakh.TabIndex = 133;
             // 
             // txthosv
             // 
             this.txthosv.Location = new System.Drawing.Point(155, 91);
             this.txthosv.Name = "txthosv";
-            this.txthosv.Size = new System.Drawing.Size(321, 28);
+            this.txthosv.Size = new System.Drawing.Size(321, 24);
             this.txthosv.TabIndex = 126;
             // 
             // txttongdiem
             // 
             this.txttongdiem.Location = new System.Drawing.Point(398, 181);
             this.txttongdiem.Name = "txttongdiem";
-            this.txttongdiem.Size = new System.Drawing.Size(183, 28);
+            this.txttongdiem.Size = new System.Drawing.Size(183, 24);
             this.txttongdiem.TabIndex = 136;
             // 
             // txthocbong
             // 
             this.txthocbong.Location = new System.Drawing.Point(155, 181);
             this.txthocbong.Name = "txthocbong";
-            this.txthocbong.Size = new System.Drawing.Size(155, 28);
+            this.txthocbong.Size = new System.Drawing.Size(155, 24);
             this.txthocbong.TabIndex = 134;
             // 
             // txtnoisinh
             // 
             this.txtnoisinh.Location = new System.Drawing.Point(155, 151);
             this.txtnoisinh.Name = "txtnoisinh";
-            this.txtnoisinh.Size = new System.Drawing.Size(155, 28);
+            this.txtnoisinh.Size = new System.Drawing.Size(155, 24);
             this.txtnoisinh.TabIndex = 131;
             // 
             // txttensv
             // 
             this.txttensv.Location = new System.Drawing.Point(478, 91);
             this.txttensv.Name = "txttensv";
-            this.txttensv.Size = new System.Drawing.Size(103, 28);
+            this.txttensv.Size = new System.Drawing.Size(103, 24);
             this.txttensv.TabIndex = 127;
             // 
             // txtmasv
@@ -122,7 +122,7 @@ namespace Man_hinh_main_sub
             this.txtmasv.Location = new System.Drawing.Point(155, 61);
             this.txtmasv.Name = "txtmasv";
             this.txtmasv.ReadOnly = true;
-            this.txtmasv.Size = new System.Drawing.Size(426, 28);
+            this.txtmasv.Size = new System.Drawing.Size(426, 24);
             this.txtmasv.TabIndex = 125;
             // 
             // btnkhong
@@ -196,7 +196,7 @@ namespace Man_hinh_main_sub
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(314, 185);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(101, 22);
+            this.label7.Size = new System.Drawing.Size(77, 17);
             this.label7.TabIndex = 135;
             this.label7.Text = "Tổng điểm";
             // 
@@ -210,21 +210,21 @@ namespace Man_hinh_main_sub
             this.chkphai.Text = "Phái";
             this.chkphai.UseVisualStyleBackColor = true;
             // 
-            // label6
+            // KBK
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(56, 188);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(92, 22);
-            this.label6.TabIndex = 124;
-            this.label6.Text = "Học bỗng";
+            this.KBK.AutoSize = true;
+            this.KBK.Location = new System.Drawing.Point(56, 188);
+            this.KBK.Name = "KBK";
+            this.KBK.Size = new System.Drawing.Size(70, 17);
+            this.KBK.TabIndex = 124;
+            this.KBK.Text = "Học bỗng";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(349, 155);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(54, 22);
+            this.label5.Size = new System.Drawing.Size(42, 17);
             this.label5.TabIndex = 132;
             this.label5.Text = "Khoa";
             // 
@@ -233,7 +233,7 @@ namespace Man_hinh_main_sub
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(56, 158);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(78, 22);
+            this.label4.Size = new System.Drawing.Size(62, 17);
             this.label4.TabIndex = 123;
             this.label4.Text = "Nơi sinh";
             // 
@@ -242,7 +242,7 @@ namespace Man_hinh_main_sub
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(319, 125);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(92, 22);
+            this.label3.Size = new System.Drawing.Size(72, 17);
             this.label3.TabIndex = 129;
             this.label3.Text = "Ngày sinh";
             // 
@@ -251,7 +251,7 @@ namespace Man_hinh_main_sub
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(56, 98);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(96, 22);
+            this.label2.Size = new System.Drawing.Size(73, 17);
             this.label2.TabIndex = 122;
             this.label2.Text = "Họ tên SV";
             // 
@@ -265,6 +265,7 @@ namespace Man_hinh_main_sub
             this.label8.TabIndex = 120;
             this.label8.Text = "DANH SÁCH SINH VIÊN";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // lblSTT
             // 
@@ -282,7 +283,7 @@ namespace Man_hinh_main_sub
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(56, 68);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 22);
+            this.label1.Size = new System.Drawing.Size(50, 17);
             this.label1.TabIndex = 121;
             this.label1.Text = "Mã SV";
             // 
@@ -367,7 +368,7 @@ namespace Man_hinh_main_sub
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(622, 647);
             this.Controls.Add(this.dgv);
@@ -388,7 +389,7 @@ namespace Man_hinh_main_sub
             this.Controls.Add(this.btntruoc);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.chkphai);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.KBK);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -427,7 +428,7 @@ namespace Man_hinh_main_sub
         private System.Windows.Forms.Button btntruoc;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.CheckBox chkphai;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label KBK;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;

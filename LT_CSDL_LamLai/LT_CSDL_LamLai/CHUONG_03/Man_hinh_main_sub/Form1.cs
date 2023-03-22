@@ -77,7 +77,7 @@ namespace Man_hinh_main_sub
 
             // Nạp nguồn cho bindingSoure bskq
             bskq.DataSource = bssv;
-            bskq.DataMember = "FK_KETQUA_SINHVIEN";
+            bskq.DataMember = "SINHVIENKETQUA";
 
             // Gan nguon cho luoi
 
@@ -85,7 +85,7 @@ namespace Man_hinh_main_sub
 
             // không hiển thi cot MaSV trong lưới
             dgvKQ.Columns["MaSV"].Visible = false;
-            
+
 
         }
 
@@ -191,7 +191,8 @@ namespace Man_hinh_main_sub
             {
                 MessageBox.Show("Dòng mới có chưa dữ liệu");
 
-            }else
+            }
+            else
             {
                 MessageBox.Show("Dòng cũ");
 
@@ -202,6 +203,9 @@ namespace Man_hinh_main_sub
 
         }
 
+        private void label8_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }

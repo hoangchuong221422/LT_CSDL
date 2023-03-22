@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luoi_DataGridview_04", "Luo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Man_hinh_main_sub", "Man_hinh_main_sub\Man_hinh_main_sub.csproj", "{86C3F64F-C5A7-4D31-8F50-6DBCDDE7B6F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luoi_DataGridview_05", "Luoi_DataGridview_05\Luoi_DataGridview_05.csproj", "{44191D48-6117-40A4-B850-A20D909B5123}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{86C3F64F-C5A7-4D31-8F50-6DBCDDE7B6F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86C3F64F-C5A7-4D31-8F50-6DBCDDE7B6F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86C3F64F-C5A7-4D31-8F50-6DBCDDE7B6F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44191D48-6117-40A4-B850-A20D909B5123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44191D48-6117-40A4-B850-A20D909B5123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44191D48-6117-40A4-B850-A20D909B5123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44191D48-6117-40A4-B850-A20D909B5123}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

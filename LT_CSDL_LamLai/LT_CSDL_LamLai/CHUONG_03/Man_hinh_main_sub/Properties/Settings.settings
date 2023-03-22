@@ -18,5 +18,21 @@
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
       <Value Profile="(Default)">Data Source=DESKTOP-P3705HF\SQLEXPRESS;Initial Catalog=C21TH2_LTCSDL;Integrated Security=True</Value>
     </Setting>
+    <Setting Name="LE_TRAN_TAN_TAI_QLSVConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=.;Initial Catalog=LE_TRAN_TAN_TAI_QLSV;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=.;Initial Catalog=LE_TRAN_TAN_TAI_QLSV;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="QLSINHVIENConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Data\QLSINHVIEN.mdb&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.OleDb&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\LT_CSDL\LT_CSDL_LamLai\LT_CSDL_LamLai\CHUONG_03\Data\QLSINHVIEN.mdb</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
