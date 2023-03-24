@@ -11,7 +11,7 @@ using Microsoft.Reporting.WinForms;
 
 namespace Report_02
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
         QLSV ds = new QLSV();
         QLSVTableAdapters.KHOATableAdapter dapKhoa = new QLSVTableAdapters.KHOATableAdapter();
@@ -20,29 +20,42 @@ namespace Report_02
         BindingSource bs = new BindingSource();
         ReportDataSource rds = new ReportDataSource();
 
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Form2_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnEnter_Click(object sender, EventArgs e)
+        {
             rds.Name = "DS_SinhVien";
             rds.Value = bs;
 
+            // khai báo điều khiển ReportViewer
+            ReportViewer rv = new ReportViewer();
+
             rv.LocalReport.DataSources.Add(rds);
+
             rv.LocalReport.ReportEmbeddedResource = "Report_02.RSinhVien_04.rdlc";
 
+            // thiết laapjk báo cáo mở ở chế độ print layout
             rv.SetDisplayMode(DisplayMode.PrintLayout);
-
-            dapKhoa.Fill(ds.KHOA);
-            dapSinhVien.Fill(ds.SINHVIEN);
+            rv.Dock = DockStyle.Fill;
             bs.DataSource = ds.SINHVIEN;
 
-            this.WindowState = FormWindowState.Maximized;
 
-            this.rv.RefreshReport();
+
+            Form f = new Form();
+            f.WindowState = FormWindowState.Maximized;
+            f.Controls.Add(rv);
+            f.ShowDialog();
+
+
+            rv.RefreshReport();
         }
     }
 }

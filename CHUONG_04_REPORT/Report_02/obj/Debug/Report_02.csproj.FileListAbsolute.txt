@@ -69,3 +69,4 @@ D:\LT_CSDL\CHUONG_04_REPORT\Report_02\obj\Debug\Report_02.csproj.CoreCompileInpu
 D:\LT_CSDL\CHUONG_04_REPORT\Report_02\obj\Debug\Report_02.csproj.CopyComplete
 D:\LT_CSDL\CHUONG_04_REPORT\Report_02\obj\Debug\Report_02.exe
 D:\LT_CSDL\CHUONG_04_REPORT\Report_02\obj\Debug\Report_02.pdb
+D:\LT_CSDL\CHUONG_04_REPORT\Report_02\obj\Debug\Report_02.Form2.resources
