@@ -37,10 +37,6 @@ namespace Dataset_Co_Dinh_Kieu_SinhVien
             Khoi_Tao_Combo_Box();
             Lien_Ket_Dieu_Khien();
 
-
-
-
-
             txttongdiem.Text = TinhTongDiem(txtmasv.Text).ToString();
 
         }

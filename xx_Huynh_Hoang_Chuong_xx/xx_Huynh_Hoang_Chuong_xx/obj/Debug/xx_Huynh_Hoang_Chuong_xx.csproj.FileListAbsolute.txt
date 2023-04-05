@@ -1,0 +1,10 @@
+D:\xx_Huynh_Hoang_Chuong_xx\xx_Huynh_Hoang_Chuong_xx\bin\Debug\xx_Huynh_Hoang_Chuong_xx.exe.config
+D:\xx_Huynh_Hoang_Chuong_xx\xx_Huynh_Hoang_Chuong_xx\bin\Debug\xx_Huynh_Hoang_Chuong_xx.exe
+D:\xx_Huynh_Hoang_Chuong_xx\xx_Huynh_Hoang_Chuong_xx\bin\Debug\xx_Huynh_Hoang_Chuong_xx.pdb
+D:\xx_Huynh_Hoang_Chuong_xx\xx_Huynh_Hoang_Chuong_xx\obj\Debug\xx_Huynh_Hoang_Chuong_xx.csproj.AssemblyReference.cache
+D:\xx_Huynh_Hoang_Chuong_xx\xx_Huynh_Hoang_Chuong_xx\obj\Debug\xx_Huynh_Hoang_Chuong_xx.Form1.resources
+D:\xx_Huynh_Hoang_Chuong_xx\xx_Huynh_Hoang_Chuong_xx\obj\Debug\xx_Huynh_Hoang_Chuong_xx.Properties.Resources.resources
+D:\xx_Huynh_Hoang_Chuong_xx\xx_Huynh_Hoang_Chuong_xx\obj\Debug\xx_Huynh_Hoang_Chuong_xx.csproj.GenerateResource.cache
+D:\xx_Huynh_Hoang_Chuong_xx\xx_Huynh_Hoang_Chuong_xx\obj\Debug\xx_Huynh_Hoang_Chuong_xx.csproj.CoreCompileInputs.cache
+D:\xx_Huynh_Hoang_Chuong_xx\xx_Huynh_Hoang_Chuong_xx\obj\Debug\xx_Huynh_Hoang_Chuong_xx.exe
+D:\xx_Huynh_Hoang_Chuong_xx\xx_Huynh_Hoang_Chuong_xx\obj\Debug\xx_Huynh_Hoang_Chuong_xx.pdb
